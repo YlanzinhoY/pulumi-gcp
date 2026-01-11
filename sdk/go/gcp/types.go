@@ -1,6 +1,6 @@
-package artifactregistry
+package gcp
 
-// Repository Format constants for Artifact Registry
+// Format constants for Artifact Registry
 const (
 	FormatDocker   = "DOCKER"
 	FormatMaven    = "MAVEN"
@@ -13,7 +13,15 @@ const (
 	FormatGeneric  = "GENERIC"
 )
 
-// Location constants for Artifact Registry
+// Locations constants
+
+const (
+	LocationEU   = "EU"
+	LocationUS   = "US"
+	LocationASIA = "ASIA"
+)
+
+// Regions constants
 const (
 	// North America
 	LocationNorthAmericaNortheast1 = "northamerica-northeast1"
